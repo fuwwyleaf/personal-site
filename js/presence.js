@@ -1,7 +1,7 @@
 async function getPresence() {
   try {
     var fetched = await fetch(
-      "https://japi.rest/discord/v1/user/419958345487745035"
+      "https://japi.rest/discord/v1/user/898255050592366642"
     );
     var res = await fetched.json();
     var status = res.presence.status;
